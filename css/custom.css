@@ -1,0 +1,62 @@
+body {
+    margin: 20px;
+}
+
+.screen {
+    display: none;
+    align-self: center;
+    width: 700px;
+}
+
+#config-text {
+    width: 660px;
+    height: 200px;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.header-image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-image-container img {
+    height: 70px
+}
+
+#text-output  {
+    height: 300px;
+    width: 600px;
+}
+
+#outputCareGaps  {
+    width: 600px;
+}
+
+#btn-submit, #btn-reset, #accordionCareGaps {
+    display: none;
+}
+
+#accordionCareGaps {
+    margin-top: 20px;
+}
+
+#spacerCareGap1, #spacerCareGap2, #spinner {
+    margin-bottom: 20px;
+}
+
+#buttonCareGap {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
