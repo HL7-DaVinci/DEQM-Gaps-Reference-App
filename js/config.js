@@ -10,7 +10,7 @@ Config.submitEndpoint = "/Measure/MEASUREID/$submit-data";
 Config.payerEndpoints = [{
     "name": "Alphora (Open)",
     "type": "open",
-    "url": "https://gic-sandbox.alphora.com/cqf-ruler-r4/fhir/",
+    "url": "https://cqm-sandbox.alphora.com/cqf-ruler-r4/fhir/",
     "periodStart": "2020-01-01",
     "periodEnd": "2020-12-31",
     "measureID": "measure-EXM130-7.3.000"
